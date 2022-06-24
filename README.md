@@ -4,7 +4,11 @@
 
 Selling merchandise in the modern era requires digital solutions. For this project, you'll be tasked with designing and constructing an online student store for the College of Codepath. The application entails a frontend user interface for potential customers to peruse the goods, and a backend API to handle data management. The API will be built with Node and Express and the UI will be built with React.
 
+### Week 2 frontend gif
 ![ezgif com-gif-maker-3](https://user-images.githubusercontent.com/96898896/175072245-aa47ce9c-f0a8-4058-9e3e-75ebfcd47a50.gif)
+
+### Week 3 backend gif
+![ezgif com-gif-maker-4](https://user-images.githubusercontent.com/96898896/175575130-15db763a-0973-45a0-b19d-e95e2c9aa738.gif)
 
 
 ### Application Features
@@ -303,4 +307,4 @@ Everything went as planned on my demo, I made sure everything works and intended
 ### Shout out
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
-I would like to give shoutout to one of my pod mate during the last 3 days of the week, Kian, though he didn't actually help me with the technical stuff but I was able to notice some of the minor features or naming that I tend to miss when skimming through the spec of the project, which is really helpful. 
+* I would like to give shoutout to one of my pod mate during the last 3 days of the week, Kian, though he didn't actually help me with the technical stuff but I was able to notice some of the minor features or naming that I tend to miss when skimming through the spec of the project, which is really helpful. 
