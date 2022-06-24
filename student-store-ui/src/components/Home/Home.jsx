@@ -15,7 +15,7 @@ import visa from "/Users/duynguyen/Desktop/codepath/student-store/student-store-
 export default function Home(props) {
   const productsByCategory = props.activeCategory.toLowerCase() === "all categories" ? props.products : props.products.filter((product) => product.category === props.activeCategory.toLowerCase())
   
-  const productList = props.searchInput === "" ? productsByCategory : productsByCategory.filter((product) => product.name.includes(props.searchInput))
+  const productList = props.searchInput === "" ? productsByCategory : productsByCategory.filter((product) => product.name.toLowerCase().indexOf(props.searchInput.toLowerCase()) !== -1)
   return (
     <div className="home" id="header">
       <Hero/>
