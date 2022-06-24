@@ -540,6 +540,42 @@
         "Knitted Beanie",
         "Matching Rings"
       ]
+    },
+    {
+      "id": 11,
+      "name": "demo",
+      "email": "demo",
+      "order": [
+        {
+          "itemId": "3",
+          "quantity": 1
+        },
+        {
+          "itemId": "4",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 6.24,
+      "total": 6.79,
+      "createdAt": "2022-06-24T20:51:42.277Z",
+      "receipt": {
+        "lines": [
+          "Showing receipt for demo available at demo:",
+          "1 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $2.99.",
+          "1 total Coconut Water purchased at a cost of $3.25 for a total cost of $3.25.",
+          "Before taxes, the subtotal was $6.24",
+          "After taxes and fees were applied, the total comes out to $6.79"
+        ]
+      },
+      "totalQuantity": 2,
+      "itemPrices": [
+        2.99,
+        3.25
+      ],
+      "itemNames": [
+        "Cinnamon Rolls",
+        "Coconut Water"
+      ]
     }
   ]
 }
