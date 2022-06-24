@@ -145,5 +145,401 @@
       "price": 999.99
     }
   ],
-  "purchases": []
+  "purchases": [
+    {
+      "id": 1,
+      "name": "asdf",
+      "email": "asdf",
+      "order": [
+        {
+          "itemId": "2",
+          "quantity": 1
+        },
+        {
+          "itemId": "3",
+          "quantity": 1
+        },
+        {
+          "itemId": "4",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 7.74,
+      "total": 8.42,
+      "createdAt": "2022-06-23T20:22:22.697Z",
+      "receipt": {
+        "lines": [
+          "Showing receipt for asdf available at asdf:",
+          "1 total Flamin Hot Cheetos purchased at a cost of $1.5 for a total cost of $1.50.",
+          "1 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $2.99.",
+          "1 total Coconut Water purchased at a cost of $3.25 for a total cost of $3.25.",
+          "Before taxes, the subtotal was $7.74",
+          "After taxes and fees were applied, the total comes out to $8.42"
+        ]
+      },
+      "totalQuantity": 3,
+      "itemPrices": [
+        1.5,
+        2.99,
+        3.25
+      ],
+      "itemNames": [
+        "Flamin Hot Cheetos",
+        "Cinnamon Rolls",
+        "Coconut Water"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "student",
+      "email": "codepath",
+      "order": [
+        {
+          "itemId": "5",
+          "quantity": 1
+        },
+        {
+          "itemId": "6",
+          "quantity": 1
+        },
+        {
+          "itemId": "7",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 32.48,
+      "total": 35.32,
+      "createdAt": "2022-06-23T20:41:22.162Z",
+      "receipt": {
+        "lines": [
+          "Showing receipt for student available at codepath:",
+          "1 total Fruit Medley purchased at a cost of $7.5 for a total cost of $7.50.",
+          "1 total Bar Code Shirts purchased at a cost of $19.99 for a total cost of $19.99.",
+          "1 total Striped Socks purchased at a cost of $4.99 for a total cost of $4.99.",
+          "Before taxes, the subtotal was $32.48",
+          "After taxes and fees were applied, the total comes out to $35.32"
+        ]
+      },
+      "totalQuantity": 3,
+      "itemPrices": [
+        7.5,
+        19.99,
+        4.99
+      ],
+      "itemNames": [
+        "Fruit Medley",
+        "Bar Code Shirts",
+        "Striped Socks"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "A student",
+      "email": "A student",
+      "order": [
+        {
+          "itemId": "1",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 0.99,
+      "total": 1.08,
+      "createdAt": "2022-06-23T22:01:23.104Z",
+      "receipt": {
+        "lines": [
+          "Showing receipt for A student available at A student:",
+          "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99.",
+          "Before taxes, the subtotal was $0.99",
+          "After taxes and fees were applied, the total comes out to $1.08"
+        ]
+      },
+      "totalQuantity": 1,
+      "itemPrices": [
+        0.99
+      ],
+      "itemNames": [
+        "Rice Krispies"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "C Student",
+      "email": "C Student",
+      "order": [
+        {
+          "itemId": "3",
+          "quantity": 1
+        },
+        {
+          "itemId": "4",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 6.24,
+      "total": 6.79,
+      "createdAt": "2022-06-23T22:01:36.914Z",
+      "receipt": {
+        "lines": [
+          "Showing receipt for C Student available at C Student:",
+          "1 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $2.99.",
+          "1 total Coconut Water purchased at a cost of $3.25 for a total cost of $3.25.",
+          "Before taxes, the subtotal was $6.24",
+          "After taxes and fees were applied, the total comes out to $6.79"
+        ]
+      },
+      "totalQuantity": 2,
+      "itemPrices": [
+        2.99,
+        3.25
+      ],
+      "itemNames": [
+        "Cinnamon Rolls",
+        "Coconut Water"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "G ",
+      "email": "watch",
+      "order": [
+        {
+          "itemId": "12",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 399.99,
+      "total": 434.99,
+      "createdAt": "2022-06-23T22:11:23.966Z",
+      "receipt": {
+        "lines": [
+          "Showing receipt for G  available at watch:",
+          "1 total Apple Watch purchased at a cost of $399.99 for a total cost of $399.99.",
+          "Before taxes, the subtotal was $399.99",
+          "After taxes and fees were applied, the total comes out to $434.99"
+        ]
+      },
+      "totalQuantity": 1,
+      "itemPrices": [
+        399.99
+      ],
+      "itemNames": [
+        "Apple Watch"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "glasses",
+      "email": "glasses",
+      "order": [
+        {
+          "itemId": "16",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 999.99,
+      "total": 1087.49,
+      "createdAt": "2022-06-23T22:11:32.279Z",
+      "receipt": {
+        "lines": [
+          "Showing receipt for glasses available at glasses:",
+          "1 total Smart Glasses purchased at a cost of $999.99 for a total cost of $999.99.",
+          "Before taxes, the subtotal was $999.99",
+          "After taxes and fees were applied, the total comes out to $1087.49"
+        ]
+      },
+      "totalQuantity": 1,
+      "itemPrices": [
+        999.99
+      ],
+      "itemNames": [
+        "Smart Glasses"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "asdf",
+      "email": "asdf",
+      "order": [
+        {
+          "itemId": "2",
+          "quantity": 1
+        },
+        {
+          "itemId": "3",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4.49,
+      "total": 4.88,
+      "createdAt": "2022-06-23T23:03:29.764Z",
+      "receipt": {
+        "lines": [
+          "Showing receipt for asdf available at asdf:",
+          "1 total Flamin Hot Cheetos purchased at a cost of $1.5 for a total cost of $1.50.",
+          "1 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $2.99.",
+          "Before taxes, the subtotal was $4.49",
+          "After taxes and fees were applied, the total comes out to $4.88"
+        ]
+      },
+      "totalQuantity": 2,
+      "itemPrices": [
+        1.5,
+        2.99
+      ],
+      "itemNames": [
+        "Flamin Hot Cheetos",
+        "Cinnamon Rolls"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "test",
+      "email": "test",
+      "order": [
+        {
+          "itemId": "13",
+          "quantity": 5
+        }
+      ],
+      "subtotal": 350,
+      "total": 380.62,
+      "createdAt": "2022-06-23T23:09:52.507Z",
+      "receipt": {
+        "lines": [
+          "Showing receipt for test available at test:",
+          "5 total Copper Bracelet purchased at a cost of $70 for a total cost of $350.00.",
+          "Before taxes, the subtotal was $350.00",
+          "After taxes and fees were applied, the total comes out to $380.62"
+        ]
+      },
+      "totalQuantity": 5,
+      "itemPrices": [
+        70
+      ],
+      "itemNames": [
+        "Copper Bracelet"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "new day",
+      "email": "new day",
+      "order": [
+        {
+          "itemId": "9",
+          "quantity": 1
+        },
+        {
+          "itemId": "10",
+          "quantity": 1
+        },
+        {
+          "itemId": "11",
+          "quantity": 1
+        },
+        {
+          "itemId": "14",
+          "quantity": 1
+        },
+        {
+          "itemId": "15",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 369.96,
+      "total": 402.33,
+      "createdAt": "2022-06-24T15:34:17.030Z",
+      "receipt": {
+        "lines": [
+          "Showing receipt for new day available at new day:",
+          "1 total Pullover Sweater purchased at a cost of $4.99 for a total cost of $4.99.",
+          "1 total Alpaca Wool Scarf purchased at a cost of $34.99 for a total cost of $34.99.",
+          "1 total Matching Rings purchased at a cost of $200 for a total cost of $200.00.",
+          "1 total Keyboard purchased at a cost of $110 for a total cost of $110.00.",
+          "1 total Mouse from 1998 purchased at a cost of $19.98 for a total cost of $19.98.",
+          "Before taxes, the subtotal was $369.96",
+          "After taxes and fees were applied, the total comes out to $402.33"
+        ]
+      },
+      "totalQuantity": 5,
+      "itemPrices": [
+        4.99,
+        34.99,
+        200,
+        110,
+        19.98
+      ],
+      "itemNames": [
+        "Pullover Sweater",
+        "Alpaca Wool Scarf",
+        "Matching Rings",
+        "Keyboard",
+        "Mouse from 1998"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "new order",
+      "email": "new order",
+      "order": [
+        {
+          "itemId": "2",
+          "quantity": 1
+        },
+        {
+          "itemId": "3",
+          "quantity": 1
+        },
+        {
+          "itemId": "4",
+          "quantity": 1
+        },
+        {
+          "itemId": "6",
+          "quantity": 1
+        },
+        {
+          "itemId": "8",
+          "quantity": 1
+        },
+        {
+          "itemId": "11",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 247.72,
+      "total": 269.4,
+      "createdAt": "2022-06-24T15:59:18.560Z",
+      "receipt": {
+        "lines": [
+          "Showing receipt for new order available at new order:",
+          "1 total Flamin Hot Cheetos purchased at a cost of $1.5 for a total cost of $1.50.",
+          "1 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $2.99.",
+          "1 total Coconut Water purchased at a cost of $3.25 for a total cost of $3.25.",
+          "1 total Bar Code Shirts purchased at a cost of $19.99 for a total cost of $19.99.",
+          "1 total Knitted Beanie purchased at a cost of $19.99 for a total cost of $19.99.",
+          "1 total Matching Rings purchased at a cost of $200 for a total cost of $200.00.",
+          "Before taxes, the subtotal was $247.72",
+          "After taxes and fees were applied, the total comes out to $269.40"
+        ]
+      },
+      "totalQuantity": 6,
+      "itemPrices": [
+        1.5,
+        2.99,
+        3.25,
+        19.99,
+        19.99,
+        200
+      ],
+      "itemNames": [
+        "Flamin Hot Cheetos",
+        "Cinnamon Rolls",
+        "Coconut Water",
+        "Bar Code Shirts",
+        "Knitted Beanie",
+        "Matching Rings"
+      ]
+    }
+  ]
 }
